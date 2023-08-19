@@ -12,7 +12,11 @@ struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            TapGesture()
+//            TapGesture()
+ //           TextFieldComp()
+ //           ShapesBootCamp()
+ //           ColorsBootCamp()
+            LinearGradientBootCamp()
         }
     }
 }

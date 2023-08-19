@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580A5F332A9125B100C3FF91 /* LinearGradientBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */; };
 		5847594829F558D6004A755C /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847594729F558D6004A755C /* SwiftUIBasicsApp.swift */; };
 		5847594A29F558D6004A755C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847594929F558D6004A755C /* ContentView.swift */; };
 		5847594C29F558DB004A755C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5847594B29F558DB004A755C /* Assets.xcassets */; };
@@ -14,7 +15,10 @@
 		5847595929F558DC004A755C /* SwiftUIBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847595829F558DC004A755C /* SwiftUIBasicsTests.swift */; };
 		5847596329F558DC004A755C /* SwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847596229F558DC004A755C /* SwiftUIBasicsUITests.swift */; };
 		5847596529F558DC004A755C /* SwiftUIBasicsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847596429F558DC004A755C /* SwiftUIBasicsUITestsLaunchTests.swift */; };
+		5850B14A2A9062C60053BF5D /* ShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */; };
+		5850B14C2A90642F0053BF5D /* ColorsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */; };
 		587FCAE429FCD37700919F22 /* TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FCAE329FCD37700919F22 /* TapGesture.swift */; };
+		58D1EF152A83F090002593F5 /* TextFieldComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1EF142A83F090002593F5 /* TextFieldComp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBootCamp.swift; sourceTree = "<group>"; };
 		5847594429F558D6004A755C /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5847594729F558D6004A755C /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		5847594929F558D6004A755C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +50,10 @@
 		5847595E29F558DC004A755C /* SwiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5847596229F558DC004A755C /* SwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
 		5847596429F558DC004A755C /* SwiftUIBasicsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootCamp.swift; sourceTree = "<group>"; };
+		5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootCamp.swift; sourceTree = "<group>"; };
 		587FCAE329FCD37700919F22 /* TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture.swift; sourceTree = "<group>"; };
+		58D1EF142A83F090002593F5 /* TextFieldComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 				5847594729F558D6004A755C /* SwiftUIBasicsApp.swift */,
 				5847594929F558D6004A755C /* ContentView.swift */,
 				587FCAE329FCD37700919F22 /* TapGesture.swift */,
+				58D1EF142A83F090002593F5 /* TextFieldComp.swift */,
+				5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */,
+				5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */,
+				580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */,
 				5847594B29F558DB004A755C /* Assets.xcassets */,
 				5847594D29F558DB004A755C /* Preview Content */,
 			);
@@ -260,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5850B14C2A90642F0053BF5D /* ColorsBootCamp.swift in Sources */,
+				5850B14A2A9062C60053BF5D /* ShapesBootCamp.swift in Sources */,
 				5847594A29F558D6004A755C /* ContentView.swift in Sources */,
 				587FCAE429FCD37700919F22 /* TapGesture.swift in Sources */,
+				58D1EF152A83F090002593F5 /* TextFieldComp.swift in Sources */,
+				580A5F332A9125B100C3FF91 /* LinearGradientBootCamp.swift in Sources */,
 				5847594829F558D6004A755C /* SwiftUIBasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
