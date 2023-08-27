@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		580A5F332A9125B100C3FF91 /* LinearGradientBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */; };
+		580A5F352A912B2500C3FF91 /* IconsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A5F342A912B2500C3FF91 /* IconsBootCamp.swift */; };
 		5847594829F558D6004A755C /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847594729F558D6004A755C /* SwiftUIBasicsApp.swift */; };
 		5847594A29F558D6004A755C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847594929F558D6004A755C /* ContentView.swift */; };
 		5847594C29F558DB004A755C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5847594B29F558DB004A755C /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		5850B14A2A9062C60053BF5D /* ShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */; };
 		5850B14C2A90642F0053BF5D /* ColorsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */; };
 		587FCAE429FCD37700919F22 /* TapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FCAE329FCD37700919F22 /* TapGesture.swift */; };
+		58C0FBEF2A92FF830054BCC4 /* ImageBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C0FBEE2A92FF830054BCC4 /* ImageBootCamp.swift */; };
 		58D1EF152A83F090002593F5 /* TextFieldComp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1EF142A83F090002593F5 /* TextFieldComp.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientBootCamp.swift; sourceTree = "<group>"; };
+		580A5F342A912B2500C3FF91 /* IconsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootCamp.swift; sourceTree = "<group>"; };
 		5847594429F558D6004A755C /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5847594729F558D6004A755C /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		5847594929F558D6004A755C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootCamp.swift; sourceTree = "<group>"; };
 		5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootCamp.swift; sourceTree = "<group>"; };
 		587FCAE329FCD37700919F22 /* TapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesture.swift; sourceTree = "<group>"; };
+		58C0FBEE2A92FF830054BCC4 /* ImageBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootCamp.swift; sourceTree = "<group>"; };
 		58D1EF142A83F090002593F5 /* TextFieldComp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldComp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 				5850B1492A9062C60053BF5D /* ShapesBootCamp.swift */,
 				5850B14B2A90642F0053BF5D /* ColorsBootCamp.swift */,
 				580A5F322A9125B100C3FF91 /* LinearGradientBootCamp.swift */,
+				580A5F342A912B2500C3FF91 /* IconsBootCamp.swift */,
+				58C0FBEE2A92FF830054BCC4 /* ImageBootCamp.swift */,
 				5847594B29F558DB004A755C /* Assets.xcassets */,
 				5847594D29F558DB004A755C /* Preview Content */,
 			);
@@ -272,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C0FBEF2A92FF830054BCC4 /* ImageBootCamp.swift in Sources */,
 				5850B14C2A90642F0053BF5D /* ColorsBootCamp.swift in Sources */,
 				5850B14A2A9062C60053BF5D /* ShapesBootCamp.swift in Sources */,
 				5847594A29F558D6004A755C /* ContentView.swift in Sources */,
@@ -279,6 +286,7 @@
 				58D1EF152A83F090002593F5 /* TextFieldComp.swift in Sources */,
 				580A5F332A9125B100C3FF91 /* LinearGradientBootCamp.swift in Sources */,
 				5847594829F558D6004A755C /* SwiftUIBasicsApp.swift in Sources */,
+				580A5F352A912B2500C3FF91 /* IconsBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

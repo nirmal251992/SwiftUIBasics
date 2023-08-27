@@ -16,7 +16,9 @@ struct SwiftUIBasicsApp: App {
  //           TextFieldComp()
  //           ShapesBootCamp()
  //           ColorsBootCamp()
-            LinearGradientBootCamp()
+ //           LinearGradientBootCamp()
+ //           IconsBootCamp()
+            ImageBootCamp()
         }
     }
 }

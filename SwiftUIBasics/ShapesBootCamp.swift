@@ -10,8 +10,7 @@ import SwiftUI
 struct ShapesBootCamp: View {
     var body: some View {
         Circle()
-            //.fill(.red)
-            .foregroundColor(.black)
+        .foregroundColor(.black)
     }
 }
 
