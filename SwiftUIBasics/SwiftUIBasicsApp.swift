@@ -18,7 +18,9 @@ struct SwiftUIBasicsApp: App {
  //           ColorsBootCamp()
  //           LinearGradientBootCamp()
  //           IconsBootCamp()
-            ImageBootCamp()
+ //           ImageBootCamp()
+ //           FramesBootCamp()
+            BackgroundAndOverlayBootCamp()
         }
     }
 }
