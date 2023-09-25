@@ -11,8 +11,8 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            TapGesture()
+ //           ContentView()
+ //           TapGesture()
  //           TextFieldComp()
  //           ShapesBootCamp()
  //           ColorsBootCamp()
@@ -20,7 +20,12 @@ struct SwiftUIBasicsApp: App {
  //           IconsBootCamp()
  //           ImageBootCamp()
  //           FramesBootCamp()
-            BackgroundAndOverlayBootCamp()
+ //           BackgroundAndOverlayBootCamp()
+ //           StacksBootCamp()
+ //           PaddingAndSpacerBootCamp()
+ //           SpacerBootCamp()
+ //           InitializerBootCamp(backgroundColor: .red, count: 5, title: "Orange")
+            ForEachBootCamp()
         }
     }
 }
