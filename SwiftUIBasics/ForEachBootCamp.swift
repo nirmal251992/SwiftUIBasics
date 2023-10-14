@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ForEachBootCamp: View {
     
-    
     var data : [String] = ["Hi","Hello","Hey everyone"]
+    
     let myString = "Hello"
 
     var body: some View {

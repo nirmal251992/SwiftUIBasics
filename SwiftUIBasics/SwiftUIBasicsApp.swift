@@ -25,7 +25,16 @@ struct SwiftUIBasicsApp: App {
  //           PaddingAndSpacerBootCamp()
  //           SpacerBootCamp()
  //           InitializerBootCamp(backgroundColor: .red, count: 5, title: "Orange")
-            ForEachBootCamp()
+ //           ForEachBootCamp()
+ //           ScrollViewBootCamp()
+ //           GridBootCamp()
+ //           ExtractedFunctionBootCamp()
+ //           BindingBootCamp()
+ //           TransitionBootCamp()
+ //           SheetsBootCamp()
+ //           PopoverBootCamp()
+ //           NavigationViewBootCamp()
+            ListBootCamp()
         }
     }
 }

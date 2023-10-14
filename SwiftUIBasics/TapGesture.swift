@@ -31,8 +31,6 @@ struct TapGesture: View {
             Spacer()
         }
         .padding(40)
-        
-        
     }
 }
 

@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ScrollViewBootCamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(spacing: 10) {
+               RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 300,height: 300)
+                RoundedRectangle(cornerRadius: 10)
+                     .frame(width: 300,height: 300)
+                RoundedRectangle(cornerRadius: 10)
+                     .frame(width: 300,height: 300)
+            }
+        }
     }
 }
 

@@ -13,6 +13,7 @@ struct SafeAreaBootCamp: View {
             VStack {
                 Label("Label", systemImage: "42.circle")
                 Button("Button") {
+                    
                 }
             }
         }.background(Color.red)
