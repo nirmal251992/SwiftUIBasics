@@ -10,6 +10,7 @@ import SwiftUI
 struct SliderBootCamp: View {
     
     @State var sliderValue: Double = 1
+    
     var body: some View {
         VStack {
             Text("Rating")
